@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
         evName = (EditText) findViewById(R.id.etName);
         evEmail = (EditText) findViewById(R.id.etEmail);
 
-        dbHelper = new DBHelper(this); // Create an object for creating and managing database versions
+        dbHelper = new DBHelper(this); // Create object for creating and managing database versions
     }
 
     @Override
