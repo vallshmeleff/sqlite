@@ -9,7 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-// MINIMAL JAVA Code
+// MINIMAL SQLite database JAVA Code
 public class MainActivity extends AppCompatActivity  implements View.OnClickListener{
     Button buttonAdd;
     Button buttonRead;
