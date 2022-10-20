@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
                 } else
                     Log.d("mLog","0 rows");
 
-                cursor.close();
+                cursor.close(); // Free memory
                 break;
 
             case R.id.btnClear: // Delete all entries
