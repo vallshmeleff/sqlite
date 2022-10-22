@@ -1,4 +1,4 @@
 # sqlite
 SQLite Database examples
-Let's start with a minimal database example. We will add services (requests) and encrypt records.
-Create, Write, Read, Find records
+An example of almost minimal Java code for SQLite. Can add, browse and write to the database. Verified for API 29
+The java code of the example with the record search function will be in another repository
