@@ -51,6 +51,12 @@
             android:layout_height="wrap_content"
             android:text="Clear">
         </Button>
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update">
+        </Button>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
