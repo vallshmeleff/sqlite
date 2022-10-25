@@ -58,6 +58,7 @@
             android:text="Update">
         </Button>
     </LinearLayout>
+    <!-- Set Record Position 0 -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -68,6 +69,7 @@
             android:text="Record 0">
         </Button>
     </LinearLayout>
+    <!-- Scroll Records -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -82,6 +84,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="NEXT">
+        </Button>
+    </LinearLayout>
+    <!-- Export and Import DataBase files to Download folder -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnExport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DB Export">
+        </Button>
+        <Button
+            android:id="@+id/btnImport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DB Import">
         </Button>
     </LinearLayout>
 </LinearLayout>
