@@ -1,4 +1,4 @@
-package com.example.sqliteexport;
+package com.example.sqlbody;
 
 import androidx.appcompat.app.AppCompatActivity;
 
